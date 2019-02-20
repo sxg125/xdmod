@@ -6,4 +6,4 @@ sed -i.bak '/Unknown/d' /tmp/slurm.log
 sed -r -i.bak 's/%[0-9]+//g' /tmp/slurm.log
 
 # Shredding files
-/usr/local/xdmod/bin/xdmod-shredder -r smaster -f slurm -i /tmp/slurm.log
+/usr/local/xdmod/bin/xdmod-shredder -r <cluster-name> -f slurm -i /tmp/slurm.log
