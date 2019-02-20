@@ -19,6 +19,3 @@
 
 # Ingestor example:
 0 2 * * * root /usr/local/xdmod/bin/xdmod-ingestor
-#
-# NOTE: Since the ingestor must be run after the shredder you should
-#       combine both commands in a single cron job.
