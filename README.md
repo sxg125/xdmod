@@ -1,2 +1,2 @@
 # xdmod
-XDMOD Group Department Hierarchy script "update-dept.sh" provides you a  template that feeds the group and respective Dept info from the database to XDMOD (https://open.xdmod.org/8.0/index.html) for it to import for Usage Dept statistics.
+XDMOD Group Department Hierarchy script "update-dept.sh" provides you a  template that feeds the group and respective Dept info from the database to XDMOD (https://open.xdmod.org/8.0/index.html) for it to import for Usage Dept statistics. The xdmod cron job "xdmod" runs this script as a cron job. There is also another script included in the xdmod cron job "additionalResource.sh" that take care of parsing issues. 
